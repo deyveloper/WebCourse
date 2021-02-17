@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 400;
+    src: url('../fonts/geometria/bold.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 400;
+    font-style: italic;
+    src: url('../fonts/geometria/boldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 800;
+    src: url('../fonts/geometria/extraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 800;
+    font-style: italic;
+    src: url('../fonts/geometria/extraBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 200;
+    src: url('../fonts/geometria/extraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 200;
+    font-style: italic;
+    src: url('../fonts/geometria/extraLightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 900;
+    src: url('../fonts/geometria/heavy.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 900;
+    font-style: italic;
+    src: url('../fonts/geometria/heavyItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-style: italic;
+    src: url('../fonts/geometria/italic.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 300;
+    src: url('../fonts/geometria/light.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 300;
+    font-style: italic;
+    src: url('../fonts/geometria/lightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 500;
+    src: url('../fonts/geometria/medium.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 500;
+    font-style: italic;
+    src: url('../fonts/geometria/mediumItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 100;
+    src: url('../fonts/geometria/thin.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    font-weight: 100;
+    font-style: italic;
+    src: url('../fonts/geometria/thinItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/geometria/normal.ttf');
+}

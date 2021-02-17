@@ -1,0 +1,97 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu-burger {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 106px;
+}
+
+.menu-burger .lines {
+    height: 50px;
+}
+
+.menu-burger .lines .line {
+    background-color: #2A94E2;
+    height: 3px;
+    width: 40px;
+    margin-top: 10px;
+    transition: .2s ease-in;
+}
+
+.menu-burger .lines.lines .line:nth-child(2) {
+    width: 30px;
+}
+
+.menu-burger .lines.lines .line:nth-child(3) {
+    width: 20px;
+}
+
+.menu-burger .text {
+    height: 100%;
+    padding-left: 10px;
+}
+
+.menu-burger:hover .lines .line:nth-child(1) {
+    animation-name: line1;
+    animation-duration: 1s;
+}
+
+.menu-burger:hover .lines .line:nth-child(2) {
+    animation-name: line2;
+    animation-duration: 1s;
+}
+
+.menu-burger:hover .lines .line:nth-child(3) {
+    animation-name: line3;
+    animation-duration: 1s;
+}
+
+@keyframes line1 {
+    0% {
+        width: 40px;
+    }
+    33% {
+        width: 40px;
+    }
+    66% {
+        width: 3px;
+    }
+    99% {
+        width: 40px;
+    }
+}
+
+@keyframes line2 {
+    0% {
+        width: 30px;
+    }
+    33% {
+        width: 15px;
+    }
+    66% {
+        width: 3px;
+    }
+    99% {
+        width: 30px;
+    }
+}
+
+@keyframes line3 {
+    0% {
+        width: 20px;
+    }
+    33% {
+        width: 10px;
+    }
+    66% {
+        width: 3px;
+    }
+    99% {
+        width: 20px;
+    }
+}

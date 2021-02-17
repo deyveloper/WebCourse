@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geometria';
+}
+
+header.header {
+    display: flex;
+    background-image: url("../images/header-background.png");
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 877px;
+}
+
+header .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+header .header-top .inner-right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-top .inner-right .blitz-logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+header .header-top .inner-right .blitz-logo-wrapper .logo-text-wrapper {
+    margin-left: 13px;
+}
+
+header .header-top .inner-right .blitz-logo-wrapper .logo-text-big {
+    display: block;
+    font-size: 23px;
+}
+
+header .header-top .inner-right .blitz-logo-wrapper .logo {
+    display: flex;
+    flex-direction: column;
+}
+
+header .header-top .inner-right .logo img:nth-child(2) {
+    margin-top: -59px;
+}
+
+header .header-top .inner-right .description {
+    width: 195px;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+header .header-top .inner-right .actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-top .inner-right .actions .phone {
+    font-size: 30px;
+}
+
+header .header-top .inner-right .actions .action-buttons .outlined-btn {
+    cursor: pointer;
+    width: 272px;
+    height: 55px;
+    outline: none;
+    background: none;
+    border: 1px solid #2A94E2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 15px;
+    background: linear-gradient(to left, transparent 50%, #2A94E2 50%) right;
+    background-size: 200%;
+    transition: .2s ease-out;
+}
+
+header .header-top .inner-right .actions .action-buttons .outlined-btn:hover {
+    background-position: left;
+}
