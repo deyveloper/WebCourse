@@ -229,7 +229,7 @@ section.quest .card-wrapper .card-right {
     width: 30%;
 }
 
-section.quest .card-wrapper .card-left .heading {
+.heading {
     font-size: 22px;
     font-weight: 800;
     margin-bottom: 30px;
