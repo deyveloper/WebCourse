@@ -174,7 +174,7 @@ header .header-bottom .act-wrapper .act-actions .filled-btn {
     font-weight: 500;
     border: 2px solid #2A94E2;
     border-radius: 5px;
-    padding: 22px 30px 17px 30px;
+    padding: 22px 30px 22px 30px;
     background: linear-gradient(to left, #2A94E2 50%, transparent 50%) right;
     background-size: 200%;
     transition: .2s ease-out;
@@ -193,20 +193,20 @@ section.quest {
     margin-bottom: 60px;
 }
 
-section.quest .top-text {
+.top-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 22px;
 }
 
-section.quest .top-text .big {
+.top-text .big {
     font-size: 35px;
     font-weight: 900;
     margin-bottom: 15px;
 }
 
-section.quest .top-text .small {
+.top-text .small {
     font-size: 22px;
 }
 
@@ -325,4 +325,421 @@ section.quest .card-wrapper .card-right .properties .property:last-child {
 
 section.quest .card-wrapper .card-right .properties .property .check {
     margin-right: 28px;
+}
+
+section.services {
+    margin-bottom: 60px;
+}
+
+.puzzles-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.puzzles-top-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.puzzle-medium-wrapper {
+    height: 610px;
+    width: 373px;
+}
+
+.puzzle-medium-wrapper .puzzle-medium {
+    width: 100%;
+    height: 100%;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+    padding: 0 20px 20px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.puzzle-medium-wrapper .puzzle-medium .footing  .heading {
+    margin-bottom: 15px;    
+}
+
+.puzzle-medium-wrapper .puzzle-medium .footing .text {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.puzzle-medium-wrapper .puzzle-medium .footing .outlined-btn {
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    background: #2A94E2;
+    color: white;
+    font-size: 16px;
+    border: 2px solid #2A94E2;
+    border-radius: 5px;
+    padding: 17px 28px 17px 28px;
+    margin-top: 40px;
+    transition: .2s ease-in;
+}
+
+.puzzle-medium-wrapper .puzzle-medium .footing .outlined-btn:hover {
+    transform: scale(1.05);
+}
+
+.puzzles-inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 377px);
+}
+
+.puzzles-inner-wrapper .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.puzzle-small-wrapper {
+    height: 305px;
+    width: 374px;
+}
+
+.puzzle-small-wrapper .puzzle-small {
+    width: 100%;
+    height: 100%;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+    padding: 0 20px 0px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.puzzle-small-wrapper .puzzle-small .footing  .heading {
+    margin-bottom: 16px; 
+}
+
+.puzzle-small-wrapper .puzzle-small .footing .text {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.puzzle-large-wrapper {
+    height: 300px;
+    width: 100%;
+}
+
+.puzzle-large-wrapper .puzzle-large {
+    width: 100%;
+    height: 100%;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+    padding: 0 20px 0px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.puzzle-large-wrapper .puzzle-large .footing  .heading {
+    margin-bottom: 16px; 
+}
+
+.puzzle-large-wrapper .puzzle-large .footing .text {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.puzzles-bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.puzzles-bottom-wrapper .puzzle-large-wrapper {
+    width: calc(100% - 379px);
+    height: 305px;
+}
+
+.puzzle-large-wrapper,
+.puzzle-small-wrapper {
+    cursor: pointer;
+    transition: .1s ease-in;
+}
+
+.puzzle-large-wrapper:hover,
+.puzzle-small-wrapper:hover {
+    transform: scale(1.05);
+}
+
+section.apartaments {
+    margin-bottom: 60px;
+}
+
+section.apartaments .selection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+section.apartaments .selection .select-buttons-wrapper {
+    display: flex;
+    width: 100%;
+    border: 2px solid #F6F6F6;
+    margin-bottom: 30px;
+}
+
+section.apartaments .selection .select-buttons-wrapper .select {
+    cursor: pointer;
+    width: 20%;
+    height: 55px;
+    outline: none;
+    background: white;
+    border: none;
+    border-right: 2px #f6f6f6 solid;
+    font-size: 16px;
+    font-style: normal;
+    transition: .1s ease-in;
+}
+
+section.apartaments .selection .select-buttons-wrapper .select:last-child {
+    border: none;
+}
+
+section.apartaments .selection .select-buttons-wrapper .select.active {
+    background: #2A94E2;
+    color: white;
+    border: none;
+}
+
+section.apartaments .selection .select-buttons-wrapper .select:hover:not(.active) {
+    background: #E5E5E5;
+}
+
+section.apartaments .options {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.apartaments .options .option {
+    cursor: pointer;
+    width: 48.7%;
+    margin-bottom: 30px;
+    border: 1px solid #F6F6F6;
+    transition: .1s ease-in-out;
+}
+
+section.apartaments .options .option .header {
+    display: flex;
+}
+
+section.apartaments .options .option .header .option-img-wrapper {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+section.apartaments .options .option .header .option-img-wrapper img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+section.apartaments .options .option .section {
+    padding: 30px 30px 15px 30px;
+}
+
+section.apartaments .options .option .section .heading {
+    margin-bottom: 15px;
+    transition: .1s ease-in;
+}
+
+section.apartaments .options .option .section .text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+section.apartaments .options .option .section .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.apartaments .options .option .section .info .left,
+section.apartaments .options .option .section .info .right {
+    display: flex;
+    flex-direction: column;
+}
+
+section.apartaments .options .option .section .info .left .top .price {
+    font-size: 33px;
+    font-weight: 300;
+}
+
+section.apartaments .options .option .section .info .left .bottom .price-per-m {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+section.apartaments .options .option .section .info .right .top .area {
+    margin-bottom: 12px;
+}
+
+section.apartaments .options .option .footer {
+    width: 100%;
+    display: flex;
+}
+
+section.apartaments .options .option .footer .action-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+section.apartaments .options .option .footer .action-buttons button.cover {
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 19px 0px;
+    transition: .1s ease-in;
+}
+
+section.apartaments .options .option .footer .action-buttons button.cover.gray {
+    background: #F6F6F6;
+    color: black;
+}
+
+section.apartaments .options .option:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+section.apartaments .options .option:hover .section .heading {
+    color: #2A94E2;
+}
+
+section.apartaments .options .option:hover .footer .action-buttons button.cover.gray {
+    color: white;
+    background: #2A94E2;
+}
+
+section.apartaments .more-wrapper {
+    cursor: pointer;
+    width: 100%;
+    background: #F6F6F6;
+}
+
+section.apartaments .more-wrapper .more-btn {
+    cursor: pointer;
+    width: 100%;
+    background: #F6F6F6;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 19px 0;
+    transition: .1s ease-in-out;
+}
+
+section.apartaments .more-wrapper .more-btn svg {
+    margin-left: 5px;
+}
+
+section.apartaments .more-wrapper:hover .more-btn {
+    background: #2A94E2;
+    color: white ; 
+}
+
+section.history {
+    width: 100%;
+    background: #F6F6F6;
+    padding: 64px 0px;
+    margin-bottom: 60px;
+}
+
+section.history .history-wrapper {
+    display: flex;
+}
+
+section.history .history-wrapper .left .heading {
+    font-size: 35px;
+}
+
+section.history .history-wrapper .left .text {
+    margin-bottom: 37px;
+}
+
+section.history .history-wrapper .left,
+section.history .history-wrapper .right
+{
+    max-width: 48.7%;
+}
+
+section.history .history-wrapper .left .filled-btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #2A94E2;
+    color: white;
+    border-radius: 5px;
+    padding: 17px 50px;
+    font-size: 20px;
+    transition: .1s ease-in-out;
+}
+
+section.history .history-wrapper .left .filled-btn:hover {
+    transform: scale(1.05);
+}
+
+section.history .history-wrapper .right .gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.history .history-wrapper .right .gallery .opened {
+    height: 100%;
+    object-fit: cover;
+}
+
+section.history .history-wrapper .right .gallery .opened .opened-img {
+    max-height: 450px;
+    object-fit: cover;
+}
+
+section.history .history-wrapper .right .gallery .tochoose {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.history .history-wrapper .right .gallery .tochoose .option {
+    cursor: pointer;
+    max-width: 24%;
+    object-fit: cover;
+    transition: .1s ease-in-out;
+}
+
+section.history .history-wrapper .right .gallery .tochoose .option img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+section.history .history-wrapper .right .gallery .tochoose .option.active {
+    border: 2px #2A94E2 solid;
+}
+
+section.history .history-wrapper .right .gallery .tochoose .option:hover:not(.active) {
+    border: 1px #2A94E2 solid;
 }
