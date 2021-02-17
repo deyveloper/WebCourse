@@ -14,6 +14,7 @@ header.header {
     background-position: center;
     background-size: cover;
     height: 877px;
+    margin-bottom: 80px;
 }
 
 header .header-top {
@@ -186,4 +187,142 @@ header .header-bottom .act-wrapper .act-actions .filled-btn:hover {
 
 .marked-text {
     font-weight: 600;
+}
+
+section.quest {
+    margin-bottom: 60px;
+}
+
+section.quest .top-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+section.quest .top-text .big {
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+section.quest .top-text .small {
+    font-size: 22px;
+}
+
+section.quest .card-wrapper {
+    display: flex;
+    border: 3px solid #F6F6F6;
+    margin: 0 auto;
+}
+
+section.quest .card-wrapper .card-left {
+    width: 70%;
+    border-right: 3px solid #F6F6F6;
+    padding-left: 36px;
+    padding-right: 40px;
+    padding-top: 43px;
+    padding-bottom: 18px;
+}
+
+section.quest .card-wrapper .card-right {
+    width: 30%;
+}
+
+section.quest .card-wrapper .card-left .heading {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+section.quest .card-wrapper .card-left .images {
+    display: flex;
+    margin-bottom: 26px;
+}
+
+section.quest .card-wrapper .card-left .images .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+section.quest .card-wrapper .card-left .images .image:last-child {
+    margin-right: 0;
+}
+
+section.quest .card-wrapper .card-left .images .image .img-wrapper {
+    max-width: 334px;
+    height: 207px;
+}
+
+section.quest .card-wrapper .card-left .images .image .img-wrapper img {
+    object-fit: cover;
+    transition: .1s ease-in;
+}
+
+section.quest .card-wrapper .card-left .images .image .img-wrapper img:hover {
+    transform: scale(1.05);
+}
+
+section.quest .card-wrapper .card-left .images .image .image-description {
+    margin-top: 25px;
+    opacity: 0.5;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+section.quest .card-wrapper .card-left .footing {
+    border-top: 3px solid #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+section.quest .card-wrapper .card-left .footing .left {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+section.quest .card-wrapper .card-left .footing .right {
+    cursor: pointer;
+}
+
+section.quest .card-wrapper .card-left .footing .right .continue {
+    display: flex;
+    align-items: center;
+}
+
+section.quest .card-wrapper .card-left .footing .right .continue .text {
+    margin-right: 15px;
+    font-size: 16px;
+    color: #2A94E2;
+    text-decoration: none;
+}
+
+section.quest .card-wrapper .card-right .properties {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 44px;
+    padding-top: 40px;
+    padding-bottom: 31px;
+}
+
+section.quest .card-wrapper .card-right .properties .property {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+section.quest .card-wrapper .card-right .properties .property:last-child {
+    margin-bottom: 0;
+}
+
+section.quest .card-wrapper .card-right .properties .property .check {
+    margin-right: 28px;
 }
