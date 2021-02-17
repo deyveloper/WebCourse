@@ -90,3 +90,99 @@ header .header-top .inner-right .actions .action-buttons .outlined-btn {
 header .header-top .inner-right .actions .action-buttons .outlined-btn:hover {
     background-position: left;
 }
+
+header .header-bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+header .header-bottom .heading-text-wrapper {
+    max-width: 586px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+header .header-bottom .description-text-wrapper {
+    max-width: 540px;
+    margin-top: 47px;
+    font-size: 22px;
+}
+
+header .header-bottom .info-wrapper {
+    margin-top: 49px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header .header-bottom .info-wrapper .info {
+    display: flex;
+    align-items: center;
+    height: 73px;
+    margin-right: 50px;
+}
+
+header .header-bottom .info-wrapper .info:last-child {
+    margin-right: 0;
+}
+
+header .header-bottom .info-wrapper .info .big {
+    font-size: 80px;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+header .header-bottom .info-wrapper .info .small {
+    font-size: 16px;
+    max-width: 129px;
+}
+
+header .header-bottom .act-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+header .header-bottom .act-wrapper .act-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .header-bottom .act-wrapper .act-info .act-icon-wrapper {
+    margin-right: 20px;
+}
+
+header .header-bottom .act-wrapper .act-info .act-text-wrapper {
+    max-width: 376px;
+    font-size: 16px;
+}
+
+header .header-bottom .act-wrapper .act-actions {
+    margin-top: 40px;
+}
+
+header .header-bottom .act-wrapper .act-actions .filled-btn {
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #2A94E2;
+    border-radius: 5px;
+    padding: 22px 30px 17px 30px;
+    background: linear-gradient(to left, #2A94E2 50%, transparent 50%) right;
+    background-size: 200%;
+    transition: .2s ease-out;
+}
+
+header .header-bottom .act-wrapper .act-actions .filled-btn:hover {
+    background-position: left;
+    color: black;
+}
+
+.marked-text {
+    font-weight: 600;
+}
