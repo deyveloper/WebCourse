@@ -95,3 +95,28 @@
         width: 20px;
     }
 }
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "medium small small2"
+      "medium large large"
+      "large2 large2 small3";
+  }
+  
+  .medium { grid-area: medium; }
+  
+  .small { grid-area: small; }
+  
+  .small2 { grid-area: small2; }
+  
+  .large { grid-area: large; }
+  
+  .large2 { grid-area: large2; }
+  
+  .small3 { grid-area: small3; }
+  
