@@ -674,6 +674,7 @@ section.history {
 
 section.history .history-wrapper {
     display: flex;
+    justify-content: space-between;
 }
 
 section.history .history-wrapper .left .heading {
@@ -682,6 +683,11 @@ section.history .history-wrapper .left .heading {
 
 section.history .history-wrapper .left .text {
     margin-bottom: 37px;
+}
+
+section.history .history-wrapper .order {
+    font-size: 22px;
+    font-weight: 700;
 }
 
 section.history .history-wrapper .left,
@@ -746,4 +752,123 @@ section.history .history-wrapper .right .gallery .tochoose .option.active {
 
 section.history .history-wrapper .right .gallery .tochoose .option:hover:not(.active) {
     border: 1px #2A94E2 solid;
+}
+
+section.navigation {
+    padding-bottom: 50px;
+}
+
+section.navigation .navigation-wrapper {
+    width: 100%;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+section.navigation .navigation-wrapper .navigate {
+    width: 49%;
+    height: 279px;
+    border: 1px solid #2A94E2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+section.navigation .navigation-wrapper .navigate:nth-last-child(-n+2) {
+    margin-bottom: 0px;
+}
+
+section.navigation .navigation-wrapper .navigate .left-icon {
+    margin-top: 11px;
+}
+
+section.navigation .navigation-wrapper .navigate .right {
+    width: 100%;
+    padding: 35px 50px 15px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+section.navigation .navigation-wrapper .navigate .right .heading {
+    margin-bottom: 40px;
+}
+
+section.navigation .navigation-wrapper .navigate .right .bottom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+section.navigation .navigation-wrapper .navigate .right .bottom .texting {
+    display: flex;
+    flex-direction: column;
+}
+
+section.navigation .navigation-wrapper .navigate .right .bottom .texting .names {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+section.navigation .navigation-wrapper .navigate .right .bottom .texting .names .position {
+    font-size: 12px;
+    opacity: .5;
+}
+
+section.navigation .navigation-wrapper .navigate .right .bottom .texting .names .name {
+    font-size: 16px;
+}
+
+section.navigation .navigation-wrapper .navigate .right .bottom .contacts .number {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+section.navigation .navigation-wrapper .navigate .right .bottom .contacts .email {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+section.navigation .linking-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.navigation .linking-wrapper .links-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+section.navigation .linking-wrapper .links-cont:last-child {
+    margin-right: 0;
+}
+
+section.navigation .linking-wrapper .links-cont a {
+    margin-bottom: 10px;
+    color: #2A94E2;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+section.navigation .linking-wrapper .links-cont a:hover {
+    text-decoration: none;
+}
+
+footer.footer {
+    background-color: #535860;
+    color: white;
+}
+
+footer.footer .footer-wrapper {
+    display: flex;
+    padding: 40px 0px 30px 0px;
+}
+footer.footer .footer-wrapper .info {
+    display: flex;
+    flex-direction: column;
 }

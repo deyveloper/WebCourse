@@ -101,7 +101,6 @@
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
     grid-template-areas:
       "medium small small2"
       "medium large large"
