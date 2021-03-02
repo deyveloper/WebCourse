@@ -31,47 +31,47 @@ header .header-top .inner-right {
     justify-content: space-between;
 }
 
-header .header-top .inner-right .blitz-logo-wrapper {
+.blitz-logo-wrapper {
     display: flex;
     align-items: center;
 }
 
-header .header-top .inner-right .blitz-logo-wrapper .logo-text-wrapper {
+.blitz-logo-wrapper .logo-text-wrapper {
     margin-left: 13px;
 }
 
-header .header-top .inner-right .blitz-logo-wrapper .logo-text-big {
+.blitz-logo-wrapper .logo-text-big {
     display: block;
     font-size: 23px;
 }
 
-header .header-top .inner-right .blitz-logo-wrapper .logo {
+.blitz-logo-wrapper .logo {
     display: flex;
     flex-direction: column;
 }
 
-header .header-top .inner-right .logo img:nth-child(2) {
+.logo img:nth-child(2) {
     margin-top: -59px;
 }
 
-header .header-top .inner-right .description {
+.description {
     width: 195px;
     font-size: 16px;
     margin-left: 30px;
 }
 
-header .header-top .inner-right .actions {
+.actions {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
-header .header-top .inner-right .actions .phone {
+.actions .phone {
     font-size: 30px;
 }
 
-header .header-top .inner-right .actions .action-buttons .outlined-btn {
+.actions .action-buttons .outlined-btn {
     cursor: pointer;
     width: 272px;
     height: 55px;
@@ -89,9 +89,22 @@ header .header-top .inner-right .actions .action-buttons .outlined-btn {
     transition: .2s ease-out;
 }
 
-header .header-top .inner-right .actions .action-buttons .outlined-btn:hover {
+.actions .action-buttons .outlined-btn:hover {
     background-position: left;
 }
+
+footer.footer .actions .action-buttons .outlined-btn {
+    color: black;
+    background: linear-gradient(to left, white 50%, #2A94E2 50%) right;
+    background-size: 200%;
+    transition: .2s ease-out;
+}
+
+footer.footer .actions .action-buttons .outlined-btn:hover {
+    background-position: left;
+    color: white;
+}
+
 
 header .header-bottom {
     display: flex;
@@ -99,14 +112,14 @@ header .header-bottom {
     margin-top: 12px;
 }
 
-header .header-bottom .heading-text-wrapper {
+.heading-text-wrapper {
     max-width: 586px;
     font-size: 50px;
     text-transform: uppercase;
     font-weight: 900;
 }
 
-header .header-bottom .description-text-wrapper {
+.description-text-wrapper {
     max-width: 540px;
     margin-top: 47px;
     font-size: 22px;
@@ -866,9 +879,26 @@ footer.footer {
 
 footer.footer .footer-wrapper {
     display: flex;
+    justify-content: space-between;
     padding: 40px 0px 30px 0px;
 }
+
 footer.footer .footer-wrapper .info {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 168px;
+    max-width: 322px;
+    font-size: 16px;
+}
+
+footer.footer .footer-wrapper .info .bottom,
+footer.footer .footer-wrapper .info .top
+{
+    font-size: 13px;
+}
+
+.inner-email {
+    font-size: 22px;
+    text-decoration: underline;
 }
