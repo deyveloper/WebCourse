@@ -697,6 +697,9 @@ section.history .history-wrapper .left .heading {
 section.history .history-wrapper .left .text {
     margin-bottom: 37px;
 }
+section.history .history-wrapper .right img {
+    margin-bottom: -6px;
+}
 
 section.history .history-wrapper .order {
     font-size: 22px;
