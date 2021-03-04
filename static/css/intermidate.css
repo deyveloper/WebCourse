@@ -1,0 +1,33 @@
+.menu-burger {
+    display: flex;
+    align-items: center;
+}
+
+.menu-burger .text {
+    margin-left: 20px;
+}
+
+.menu-burger .icon .lines {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-burger .icon .lines .line {
+    width: 40px;
+    height: 3px;
+    background: #2A94E2;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.menu-burger .icon .lines .line:last-child {
+    margin-bottom: 0;
+}
+
+.menu-burger .icon .lines .line:nth-child(2) {
+    width: 30px;
+}
+
+.menu-burger .icon .lines .line:nth-child(3) {
+    width: 20px;
+}
