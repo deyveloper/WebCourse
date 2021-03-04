@@ -2,7 +2,7 @@ const limitation = {
     maxApartaments: 2
 };
 
-
+// Currencies info
 const currencies = {
     RUB: {
         icon: '₽'
@@ -12,6 +12,7 @@ const currencies = {
     }
 };
 
+// Data to load and configs
 const loads = {
     configs: {
         indexes: {
@@ -82,6 +83,7 @@ const loads = {
     ]
 }
 
+// Filtration functions
 const selections = {
     apartaments: {
         '-1': (apartament) => true,
@@ -146,6 +148,7 @@ const loadMore = () => {
     else  moreWrapper.style.display = 'block';
 };
 
+// Load apartaments data for first time
 loadMore();
 document.querySelector('.more-wrapper').onclick = loadMore;
 
@@ -157,6 +160,7 @@ for (let i = 0; i < selectsLength; i++) {
         selectElements[i].classList.add('active')
         toPush = '';
         loads.configs.indexes.apartament = 0;
+        // On selection function changing load new data
         loadMore();
     };
 }
