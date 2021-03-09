@@ -60,3 +60,222 @@ header.header .header-top .right-wrapper .contact-bottom .order-call {
     background: none;
     padding: 17.3px 0px;
 }
+header .header-bottom{
+
+    display: flex;
+    margin-top: 12px;
+    flex-direction: column;
+}
+
+.header-bottom-text{
+    max-width: 586px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.wisdom-text{
+    max-width: 540px;
+    margin-top: 47px;
+    font-size: 22px;
+}
+
+header .header-bottom .wisdom-info{
+    max-width: 100%;
+    margin-top: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header .header-bottom .wisdom-info .info{
+    display: flex;
+    align-content: center;
+     height: 73px;
+    margin-right: 50px;
+}
+header .header-bottom .info-wrapper .info .big {
+    font-size: 80px;
+    font-weight: 300;
+    margin-right: 20px;
+}
+header .header-bottom .info-wrapper .info .small {
+    font-size: 16px;
+    max-width: 129px;
+}
+header .header-bottom .image-wisdom .image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header .header-bottom .image-wisdom .image .image-icon {
+    margin-right: 20px;
+}
+header .header-bottom .image-wisdom .image .image-text {
+    max-width: 376px;
+    font-size: 16px;
+}
+header .header-bottom .image-wisdom .image-botton {
+    margin-top: 39px;
+}
+header .header-bottom .image-wisdom .image-botton .image-btn {
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #2A94E2;
+    border-radius: 5px;
+    padding: 22px 30px 22px 30px;
+    background-color: #2A94E2;
+    background-size: 200%;
+    transition: .2s ease-out;
+}
+
+.name-text {
+    font-weight: 600;
+}
+section.quest {
+    margin-bottom: 60px;
+}
+.contaniner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.contaniner-text .text-big {
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.contaniner-text .text-small {
+    font-size: 22px;
+}
+section.quest .card{
+    display: flex;
+    border: 3px solid #F6F6F6;
+    margin: 0 auto;
+}
+section.quest .card .card-left {
+    width: 70%;
+    border-right: 3px solid #F6F6F6;
+    padding-left: 36px;
+    padding-right: 40px;
+    padding-top: 43px;
+    padding-bottom: 18px;
+}
+section.quest .card .card-right {
+    width: 30%;
+}
+
+.heading{
+    font-weight: 698px;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+section.quest .card .card-left .images {
+    display: flex;
+    margin-bottom: 26px;
+}
+section.quest .card .card-left .images .image {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+section.quest .card .card-left .images .image-one {
+    max-width: 334px;
+    height: 217px;
+}
+section.quest .card .card-left .images .image .about-image {
+    font-size: 16px;
+    opacity: 0,5;
+    max-width: 600px;
+    margin-top: 25px;
+}
+
+section.quest .card .card-left .result {
+    border-top: 3px solid #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+section.quest .card .card-left .result .left{
+    font-size: 16px;
+}
+section.quest .card .card-left .result .right{
+    cursor: pointer;
+}
+section.quest .card .card-left .result .right .continue {
+    display: flex;
+    align-items: center;
+}
+section.quest .card .card-left .result .right .continue .continue-text {
+    font-size: 16px;
+    margin-right: 15px;
+    color: #2A94E2;
+    text-decoration: none;
+}
+section.quest .card .card-right .particles {
+    display: flex;
+    flex-direction: column;
+    padding-right: 44px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 31px;
+    width: 100%;
+    height: 100%;
+}
+section.quest .card .card-right .particle {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+section.quest .card .card-right .particle .check {
+     margin-right: 28px;
+}
+section .attendance{
+    margin-bottom: 60px;
+}
+.puzzles-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.puzzle-medium-wrapper {
+    height: 610px;
+    width: 373px;
+}
+.puzzle-medium-wrapper .medium-wrap {
+    width: 100%;
+    height: 100%;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+    padding: 0 20px 20px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.puzzle-medium-wrapper .footing  .heading {
+    margin-bottom: 15px;    
+}
+.puzzle-medium-wrapper .footing  .text{
+    font-size: 16px;
+     font-weight: 200;
+}
+.puzzle-medium-wrapper .footing  .learn-more{
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    background: #2A94E2;
+    color: white;
+    font-size: 16px;
+    border: 2px solid #2A94E2;
+    border-radius: 5px;
+    padding: 17px 28px 17px 28px;
+    margin-top: 40px;
+}
